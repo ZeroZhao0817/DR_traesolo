@@ -1,0 +1,39 @@
+name: sedentary_reminder
+description: A lightweight desktop Pomodoro reminder tool
+version: 1.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.3.0
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  window_manager: ^0.3.7
+  screen_retriever: ^0.1.9
+  path_provider: ^2.1.0
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Microsoft YaHei
+      fonts:
+        - asset: assets/fonts/msyh.ttc
+        - asset: assets/fonts/msyhbd.ttc
+          weight: 700
+        - asset: assets/fonts/msyhl.ttc
+          weight: 300
+  assets:
+    - assets/images/actions/
+    - assets/data/quotes/maoxuan/
+    - assets/data/quotes/philosophy/
+    - assets/data/quotes/tech/
+    - assets/data/quotes/workplace/
