@@ -1,8 +1,0 @@
-PLACEHOLDER - Add cat animation sprites here
-
-Structure:
-- cat_idle_1.png, cat_idle_2.png (idle animation frames)
-- cat_run_1.png, cat_run_2.png, cat_run_3.png (running animation)
-- cat_catch.png (catching mouse)
-- cat_eat.png (eating animation)
-- cat_celebrate.png (celebration)
